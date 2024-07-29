@@ -1,0 +1,189 @@
+#listA{
+    list-style: none;
+    gap:15px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#listB{
+    list-style: none;
+    gap:15px;
+    font-size: 25px;
+    height:50px;
+    line-height: 50px;
+}
+#listC{
+    list-style: none;
+    font-size: 20px;
+    /* width:70%; */
+    padding-left: 0px;
+    
+}
+.more{
+    font-size: 20px;
+    padding: 0;
+    border-radius: 0;
+}
+#phone{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+#startOrder{
+    font-size: 20px;
+    text-shadow: 50px;
+    z-index: 2;
+}
+#backImage
+{    height: 200px;
+    z-index: 1;
+    
+}
+#nav1{
+    margin-top: 30px;
+    height:17px;
+   
+    
+}
+#nav2{
+    padding: 0px;
+    margin-top: 30px;
+    height:17px;
+   
+}
+#listD{
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+    width:70%;
+    gap:20px;
+    
+}
+
+.cardItem{
+    margin-top: 15px;
+    margin-left: 5px;
+    width:100%;
+    height:260px;
+}
+
+
+
+@media (min-width: 0px) and (max-width:768px){
+    .size {
+        font-size: 13px; 
+    }
+    .size2 {
+        font-size: 15px; 
+    }
+}
+    
+@media (min-width: 768px) and (max-width:1200px){
+    .size {
+        font-size: 10px; 
+    }
+    .size2 {
+        font-size: 12px; 
+    }
+}
+
+@media (min-width: 1200px){
+    .size {
+        font-size: 13px; 
+    }
+    .size2 {
+        font-size: 14px; 
+    }
+}
+
+@media (min-width: 0px) and (max-width:768px){
+   
+.navText{
+        font-size: 10px; 
+    }
+
+
+#signInDiv{
+    text-align: center !important;
+    margin: auto !important;
+}
+#listA, #listB {
+    
+    margin: 0 !important; /* Remove default margin */
+    padding: 0 !important;
+}
+}
+@media (min-width: 768px) and (max-width:992px){
+   
+    .navText{
+            font-size: 10px; 
+        }
+    #startOrder{
+        font-size: 16px;
+    }
+    }
+@media (min-width: 992px) and (max-width:1200px){
+   
+        .navText{
+                font-size: 16px; 
+            }
+        }
+@media (min-width: 1200px){
+   
+            .navText{
+                    font-size: 20px; 
+                }
+            }
+
+ @media (min-width: 0px)and (max-width:768px){
+   
+#startOrder{
+             width:100% !important;
+            margin: 0px !important;
+            
+        }
+#listC{
+            width:0% !important;
+       }
+       }
+
+
+
+/* scrollbar */
+.scroll-container {
+        overflow-x: auto; /* Enable horizontal scrolling */
+    }
+
+ @media (max-width: 768px) {
+        #listD {
+            display: flex; /* Use flex layout for the list */
+            flex-direction: row; /* Arrange items in a row */
+            overflow-x:auto; /* Enable horizontal scrolling */
+            padding: 0px;
+        
+        }
+    
+        #listD li {
+            flex: 0 0 auto;
+             /* Prevent items from growing or shrinking */
+            width: 100vw; /* Make each item take full viewport width */
+            text-align: center; /* Center text */
+        }
+        #listD> li>a {
+            width: auto; /* Default width for items */
+            font-size: 18px;
+        }
+        #nav2{
+            margin-top: 0px;
+            top:0px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #listD {
+            display: flex;
+            flex-direction: row; /* Display items in a row */
+            overflow: visible; /* Ensure overflow is visible (no scroll) */
+        }
+    
+       
+    }

@@ -75,6 +75,9 @@
     .size2 {
         font-size: 12px; 
     }
+    signInDiv{
+        font-size:10px;
+        }
 }
     
 @media (min-width: 768px) and (max-width:1200px){
